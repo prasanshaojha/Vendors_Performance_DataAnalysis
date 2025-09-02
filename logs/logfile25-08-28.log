@@ -1,7 +1,0 @@
-2025-08-28 22:28:49,524 - INFO - file found: begin_inventory.csv
-2025-08-28 22:28:49,524 - INFO - file found: end_inventory.csv
-2025-08-28 22:28:49,524 - INFO - file found: purchases.csv
-2025-08-28 22:28:49,524 - INFO - file found: purchase_prices.csv
-2025-08-28 22:28:49,524 - INFO - file found: sales.csv
-2025-08-28 22:28:49,524 - INFO - file found: vendor_invoice.csv
-2025-08-28 22:28:49,524 - INFO - Time Taken for fetching table list : 0:00:00.000016 min 
