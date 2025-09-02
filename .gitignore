@@ -5,3 +5,5 @@ datasets/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+practiced_insertion.ipnyb
