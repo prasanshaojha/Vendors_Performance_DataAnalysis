@@ -1,0 +1,67 @@
+2025-09-02 06:01:26,255 - INFO - file found: begin_inventory.csv
+2025-09-02 06:01:26,255 - INFO - file found: end_inventory.csv
+2025-09-02 06:01:26,255 - INFO - file found: purchases.csv
+2025-09-02 06:01:26,255 - INFO - file found: purchase_prices.csv
+2025-09-02 06:01:26,255 - INFO - file found: sales.csv
+2025-09-02 06:01:26,255 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:01:26,255 - INFO - Time Taken for fetching table list : 0:00:00.000026 min 
+2025-09-02 06:01:39,332 - INFO - file found: begin_inventory.csv
+2025-09-02 06:01:39,333 - INFO - file found: end_inventory.csv
+2025-09-02 06:01:39,334 - INFO - file found: purchases.csv
+2025-09-02 06:01:39,334 - INFO - file found: purchase_prices.csv
+2025-09-02 06:01:39,334 - INFO - file found: sales.csv
+2025-09-02 06:01:39,334 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:01:39,335 - INFO - Time Taken for fetching table list : 0:00:00.000041 min 
+2025-09-02 06:20:57,533 - INFO - file found: begin_inventory.csv
+2025-09-02 06:20:57,534 - INFO - file found: end_inventory.csv
+2025-09-02 06:20:57,534 - INFO - file found: purchases.csv
+2025-09-02 06:20:57,534 - INFO - file found: purchase_prices.csv
+2025-09-02 06:20:57,534 - INFO - file found: sales.csv
+2025-09-02 06:20:57,534 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:20:57,534 - INFO - Time Taken for fetching table list : 0:00:00.000022 min 
+2025-09-02 06:20:57,534 - ERROR - Error occur: module 'pandas' has no attribute 'replace'
+2025-09-02 06:31:56,061 - INFO - file found: begin_inventory.csv
+2025-09-02 06:31:56,061 - INFO - file found: end_inventory.csv
+2025-09-02 06:31:56,061 - INFO - file found: purchases.csv
+2025-09-02 06:31:56,061 - INFO - file found: purchase_prices.csv
+2025-09-02 06:31:56,061 - INFO - file found: sales.csv
+2025-09-02 06:31:56,061 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:31:56,062 - INFO - Time Taken for fetching table list : 0:00:00.000023 min 
+2025-09-02 06:31:56,116 - ERROR - Error occur: NDFrame.to_sql() got an unexpected keyword argument 'Index'. Did you mean 'index'?
+2025-09-02 06:40:57,874 - INFO - file found: begin_inventory.csv
+2025-09-02 06:40:57,874 - INFO - file found: end_inventory.csv
+2025-09-02 06:40:57,874 - INFO - file found: purchases.csv
+2025-09-02 06:40:57,874 - INFO - file found: purchase_prices.csv
+2025-09-02 06:40:57,874 - INFO - file found: sales.csv
+2025-09-02 06:40:57,874 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:40:57,874 - INFO - Time Taken for fetching table list : 0:00:00.000016 min 
+2025-09-02 06:40:59,103 - INFO - top 1000 rows inserted for table begin_inventory
+2025-09-02 06:40:59,103 - INFO - Time Taken for inserting top 1000 rows of table begin_inventory : 0:00:00.020464 min 
+2025-09-02 06:40:59,485 - INFO - top 1000 rows inserted for table end_inventory
+2025-09-02 06:40:59,485 - INFO - Time Taken for inserting top 1000 rows of table end_inventory : 0:00:00.006367 min 
+2025-09-02 06:40:59,966 - INFO - top 1000 rows inserted for table purchases
+2025-09-02 06:40:59,966 - INFO - Time Taken for inserting top 1000 rows of table purchases : 0:00:00.008007 min 
+2025-09-02 06:41:00,308 - ERROR - error occur: (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Unknown' to data type smallint. (245) (SQLExecDirectW)")
+[SQL: INSERT INTO purchase_prices ([Brand], [Description], [Price], [Size], [Volume], [Classification], [PurchasePrice], [VendorNumber], [VendorName]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ? ... 6557 characters truncated ... , ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2767, 'Johnnie Walker Blue Label', 189.99, '750mL', '750', 1, 139.7, 3960, 'DIAGEO NORTH AMERICA INC   ', 2769, 'Laphroaig Quarter Cask', 55.99, '750mL', '750', 1, 38.4, 12546, 'JIM BEAM BRANDS COMPANY    ', 2770, 'Hudson Single Malt Whiskey', 39.99, '375mL', '375', 1, 31.0, 3664, 'WILLIAM GRANT & SONS INC   ', 2772, 'Talisker Storm Scotch', 62.99, '750mL', '750', 1, 46.15, 3960, 'DIAGEO NORTH AMERICA INC   ', 2776, 'Brenne French Sng Mlt Whisky', 41.99, '750mL', '750', 1, 32.3, 4425, 'MARTIGNETTI COMPANIES', 2780, 'Bulleit 10 Yr Old Bourbon', 40.99, '750mL', '750' ... 1997 parameters truncated ... '750', 1, 10.21, 9625, 'WESTERN SPIRITS BEVERAGE CO', 3485, 'Luksusowa Potato Vodka', 19.99, '1750mL', '1750', 1, 15.03, 4425, 'MARTIGNETTI COMPANIES', 3486, 'Tanqueray', 12.99, '375mL', '375', 1, 9.84, 3960, 'DIAGEO NORTH AMERICA INC   ', 3487, 'Stolichnaya Blueberi', 16.99, '750mL', '750', 1, 12.77, 8664, 'STOLI GROUP,(USA) LLC      ', 3488, 'Tanqueray', 23.99, '750mL', '750', 1, 15.62, 3960, 'DIAGEO NORTH AMERICA INC   ', 3489, 'Tanqueray', 27.99, '1750mL', '1750', 1, 20.73, 3960, 'DIAGEO NORTH AMERICA INC   ')]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-09-02 06:48:15,259 - INFO - file found: begin_inventory.csv
+2025-09-02 06:48:15,259 - INFO - file found: end_inventory.csv
+2025-09-02 06:48:15,259 - INFO - file found: purchases.csv
+2025-09-02 06:48:15,259 - INFO - file found: purchase_prices.csv
+2025-09-02 06:48:15,259 - INFO - file found: sales.csv
+2025-09-02 06:48:15,259 - INFO - file found: vendor_invoice.csv
+2025-09-02 06:48:15,260 - INFO - Time Taken for fetching table list : 0:00:00.000024 min 
+2025-09-02 06:48:15,980 - INFO - top 1000 rows inserted for table begin_inventory
+2025-09-02 06:48:15,980 - INFO - Time Taken for inserting top 1000 rows of table begin_inventory : 0:00:00.011995 min 
+2025-09-02 06:48:16,410 - INFO - top 1000 rows inserted for table end_inventory
+2025-09-02 06:48:16,410 - INFO - Time Taken for inserting top 1000 rows of table end_inventory : 0:00:00.007163 min 
+2025-09-02 06:48:16,894 - INFO - top 1000 rows inserted for table purchases
+2025-09-02 06:48:16,894 - INFO - Time Taken for inserting top 1000 rows of table purchases : 0:00:00.008068 min 
+2025-09-02 06:48:17,295 - INFO - top 1000 rows inserted for table purchase_prices
+2025-09-02 06:48:17,295 - INFO - Time Taken for inserting top 1000 rows of table purchase_prices : 0:00:00.006682 min 
+2025-09-02 06:48:17,865 - INFO - top 1000 rows inserted for table sales
+2025-09-02 06:48:17,865 - INFO - Time Taken for inserting top 1000 rows of table sales : 0:00:00.009501 min 
+2025-09-02 06:48:20,089 - INFO - top 1000 rows inserted for table vendor_invoice
+2025-09-02 06:48:20,090 - INFO - Time Taken for inserting top 1000 rows of table vendor_invoice : 0:00:00.037068 min 
+2025-09-02 06:48:20,090 - INFO - data insertion completed
