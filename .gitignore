@@ -1,0 +1,7 @@
+# Ignore datasets folder
+datasets/
+
+# Ignore Python cache and Jupyter checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
